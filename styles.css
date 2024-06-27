@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+* {
+    background-color: #1F2937;  
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    gap: 28px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+/* .title1 {
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight:bolder;
+    outline: red solid 6px;
+} */
