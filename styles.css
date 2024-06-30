@@ -7,10 +7,11 @@
 
 #supercontainer {
     background-color: #1F2937;
-    position: absolute;
+    /* position: absolute;
     top: 0px;
     right: 0px;
-    left: 0px;
+    left: 0px; */
+    width: 100%;
 }
 
 ul {
@@ -71,4 +72,16 @@ ul {
 
 .bloco2 {
     margin-bottom: 100px;
+}
+
+#container-block3{
+    background-color: red;
+    outline: red solid 4px;
+    display: flex;
+}
+
+.header2 {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
 }
