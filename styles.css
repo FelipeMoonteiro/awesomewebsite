@@ -1,12 +1,16 @@
 .header {
     display: flex;
-    color: white;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
-* {
-    background-color: #1F2937;  
+#supercontainer {
+    background-color: #1F2937;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 ul {
@@ -19,7 +23,7 @@ ul {
     font-size: 20px;
 }
 
-.container {
+#container {
     display: flex;
     flex-direction: column;
     margin-left: 300px;
@@ -28,11 +32,43 @@ ul {
 
 .logo {
     font-weight: bold;
+    font-size: 24px;
+    color: #F9F4F8;
 }
 
-/* .title1 {
+.bloco1 {
+    display: flex;
+}
+.title1 {
     font-size: 48px;
     color:#F9FAF8;
     font-weight:bolder;
-    outline: red solid 6px;
-} */
+}
+
+.text1, .menu, .button1 {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 5px;
+}
+
+.button1 {
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    
+}
+
+#container2 {
+    display: flex;
+}
+
+.bloco1, .text1 {
+    margin-right: 30px;
+}
+
+.bloco2 {
+    margin-bottom: 100px;
+}
