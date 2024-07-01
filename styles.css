@@ -115,3 +115,27 @@ body {
     width: 200px;
     margin: 10px;
 }
+
+#container-bloco4 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    margin: 150px 40px 10px;
+    width: 800px;
+}
+
+#quote-ref {
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 10px 0px 120px;
+    margin-left: 600px;
+
+}
