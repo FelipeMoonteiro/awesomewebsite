@@ -139,3 +139,45 @@ body {
     margin-left: 600px;
 
 }
+
+#container-bloco5 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.anuncio {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 50px 100px;
+    gap: 64px;
+}
+
+#container-necessario {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.header3 {
+    font-size: 24px;
+    color:#F9F4F8;
+    font-weight: bold;
+}
+
+.text2 {
+    font-size: 20px;
+    font-weight: 1;
+    color: #F9FAF8;
+}
+
+.final {
+    border-style: solid;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+}
